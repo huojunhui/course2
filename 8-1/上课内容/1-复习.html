@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+
+		function Cat(name){
+			this.name = name
+		}
+
+		var cat = new Cat("miaomiao");
+
+		Cat.prototype.shout = function(){
+			console.log("喵喵")
+		}
+
+		cat.shout();
+
+
+
+	</script>
+</body>
+</html>
